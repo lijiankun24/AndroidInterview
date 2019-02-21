@@ -1,4 +1,4 @@
-package tree.binarytree;
+package tree;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
@@ -13,7 +13,7 @@ import java.util.Queue;
 public class NaryTreeLevelOrderTraversal {
 
     public static void main(String[] args) {
-
+        System.out.println("levelOrder");
     }
 
     public static List<List<Integer>> levelOrder(Node root) {

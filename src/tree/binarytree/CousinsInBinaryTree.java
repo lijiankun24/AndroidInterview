@@ -1,7 +1,6 @@
 package tree.binarytree;
 
 import java.util.LinkedList;
-import java.util.Queue;
 
 /**
  * CousinsInBinaryTree.java

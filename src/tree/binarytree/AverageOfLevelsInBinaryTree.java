@@ -10,7 +10,7 @@ import java.util.*;
 public class AverageOfLevelsInBinaryTree {
 
     public static void main(String[] args) {
-
+        System.out.println("");
     }
 
     public List<Double> averageOfLevels(TreeNode root) {
