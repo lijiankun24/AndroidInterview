@@ -1,4 +1,6 @@
-package tree.binarytree;
+package tree.binarytree.bst;
+
+import tree.binarytree.TreeNode;
 
 /**
  * Given a binary search tree (BST), find the lowest common ancestor (LCA) of two given nodes in the BST.

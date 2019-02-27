@@ -98,4 +98,20 @@ public class TreeNode {
         left3.right = right4;
         return left1;
     }
+
+    public static TreeNode generateNonSymmetricTree() {
+        TreeNode left1 = new TreeNode(1);
+        TreeNode left2 = new TreeNode(2);
+        TreeNode right2 = new TreeNode(2);
+
+        TreeNode left3 = new TreeNode(3);
+        TreeNode right3 = new TreeNode(3);
+
+        left1.left = left2;
+        left1.right = right2;
+
+        left2.right = left3;
+        right2.right = right3;
+        return left1;
+    }
 }
