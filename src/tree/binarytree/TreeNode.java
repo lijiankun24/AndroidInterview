@@ -37,6 +37,32 @@ public class TreeNode {
     }
 
     /**
+     *      5
+     *     / \
+     *    4   5
+     *   / \   \
+     *  1  1   5
+     */
+    public static TreeNode generateBinaryTree() {
+        TreeNode root = new TreeNode(5);
+        TreeNode left1 = new TreeNode(4);
+        TreeNode right1 = new TreeNode(5);
+
+        TreeNode left2 = new TreeNode(1);
+        TreeNode right2 = new TreeNode(1);
+        TreeNode right3 = new TreeNode(5);
+
+        root.left = left1;
+        root.right = right1;
+
+        left1.left = left2;
+        left1.right = right2;
+
+        right1.right = right3;
+        return root;
+    }
+
+    /**
      *      6
      *     / \
      *    4   8
