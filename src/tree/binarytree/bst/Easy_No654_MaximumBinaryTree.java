@@ -1,4 +1,6 @@
-package tree.binarytree;
+package tree.binarytree.bst;
+
+import tree.binarytree.TreeNode;
 
 import java.util.ArrayList;
 import java.util.HashMap;
