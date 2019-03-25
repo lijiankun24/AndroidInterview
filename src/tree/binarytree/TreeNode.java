@@ -15,6 +15,25 @@ public class TreeNode {
     }
 
     /**
+     *      1
+     *     / \
+     *    2  3
+     *     \
+     *     4
+     */
+    public static TreeNode generateBST1() {
+        TreeNode root = new TreeNode(1);
+        TreeNode left1 = new TreeNode(2);
+        TreeNode right1 = new TreeNode(3);
+        TreeNode left2 = new TreeNode(4);
+
+        root.left = left1;
+        root.right = right1;
+        left1.right = left2;
+        return root;
+    }
+
+    /**
      *      3
      *     / \
      *    0   4
@@ -23,7 +42,7 @@ public class TreeNode {
      *    /
      *   1
      */
-    public static TreeNode generateBST1() {
+    public static TreeNode generateBST2() {
         TreeNode root = new TreeNode(3);
         TreeNode left1 = new TreeNode(0);
         TreeNode right1 = new TreeNode(4);
