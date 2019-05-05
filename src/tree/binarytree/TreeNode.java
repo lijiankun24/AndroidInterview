@@ -15,21 +15,21 @@ public class TreeNode {
     }
 
     /**
-     *      1
+     *      3
      *     / \
-     *    2  3
+     *    1  4
      *     \
-     *     4
+     *     2
      */
     public static TreeNode generateBST1() {
-        TreeNode root = new TreeNode(1);
-        TreeNode left1 = new TreeNode(2);
-        TreeNode right1 = new TreeNode(3);
-        TreeNode left2 = new TreeNode(4);
+        TreeNode root = new TreeNode(3);
+        TreeNode left1 = new TreeNode(1);
+        TreeNode right1 = new TreeNode(4);
+        TreeNode right2 = new TreeNode(2);
 
         root.left = left1;
         root.right = right1;
-        left1.right = left2;
+        left1.right = right2;
         return root;
     }
 
